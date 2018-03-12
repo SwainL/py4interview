@@ -1,4 +1,4 @@
-import listnode
+from listnode import construct_list
 
 
 class Solution:
@@ -26,6 +26,6 @@ class Solution:
 
 
 sol = Solution()
-head = listnode.construct_list([1, 7, 3, 9, 5])
+head = construct_list([1, 7, 3, 9, 5])
 node = sol.nthToLast(head, 2)
 print(node.val)
