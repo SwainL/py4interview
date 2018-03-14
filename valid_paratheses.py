@@ -4,13 +4,12 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
+        mapping = {"}": "{", ")": "(", "]": "["}
         stack = list()
         for p in s:
-            if p in ("{", "(", "["):
+            if p in mapping.values():
                 stack.append(p)
             else:
-                if not stack or stack.pop() != p:
+                if not stack or stack.pop() != mapping[p]:
                     return False
-        return True
-
-print(Solution().isValid("[]([])"))
+        return len(stack) == 0
