@@ -4,7 +4,7 @@
 4. Mitmap, Bloom filter
 √ 5. Longest valid parentheses (Dp)
 6. √ Sort stack, Min stack
-7. Max window
+√ 7. Max in windows
 8. max area of island
 9. container with most water
 10. ConcurrentHashMap, LinkedHashMap
