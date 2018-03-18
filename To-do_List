@@ -1,5 +1,5 @@
 1. LFU(Least Frequently Used), √ LRU(Least Recently Used)
-2. Shuffle
+√ 2. Shuffle an array
 √ 3. Swap odd nodes with even nodes
 4. Mitmap, Bloom filter
 √ 5. Longest valid parentheses (Dp)
