@@ -1,4 +1,4 @@
-1. LRU
+1. LFU(Least Frequently Used), √ LRU(Least Recently Used)
 2. Shuffle
 √ 3. Swap odd nodes with even nodes
 4. Mitmap, Bloom filter
@@ -7,8 +7,8 @@
 7. Max window
 8. max area of island
 9. container with most water
-10. ConcurrentHashMap
+10. ConcurrentHashMap, LinkedHashMap
 11. JVM CAS
 12. Tower of Hanoi
 13. Minimum size subarray sum
-
+14. http 长连接
